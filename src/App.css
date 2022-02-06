@@ -1,38 +1,136 @@
-.App {
+body {
+  font-family: "Oooh Baby", cursive;
+  background-image: url("./images/background.jpg");
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+h1 {
   align-items: center;
+  justify-items: center;
+  font-size: 50px;
+  padding: 15px;
+  color: #d8ab09;
+  font-family: "Dancing Script", cursive;
+}
+
+.mainContainer {
+  display: grid;
+}
+
+.Date-info {
+  color: #d8ab09;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.mainPhoto {
+  grid-column: span 3;
+  height: 100%;
+  width: 55%;
+  border-radius: 10%;
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style-type: none;
+  margin: 20px 0 0 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  align-items: center;
+  align-self: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.link {
+  font-size: 25px;
+  display: inline;
+  padding: 10px;
+  text-align: center;
+  color: #d8ab09;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weddingInfo {
+  color: #d8ab09;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.weddingDay {
+  font-family: "Dancing Script", cursive;
+}
+
+.photo-block-one {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  width: 80%;
+  height: 80%;
+  grid-column: span 3;
+  margin-bottom: 200px;
+}
+
+.block-photo {
+  width: 100%;
+  height: 100%;
+}
+.block-photo-two {
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+}
+
+.photoSubHeader {
+  grid-column: span 3;
+  text-align: center;
+  font-size: 4em;
+  color: #d8ab09;
+}
+
+.photo-block-two {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: span 3;
+  width: 80%;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.travelSpots {
+  display: grid;
+  grid-column: span 3;
+}
+
+.hotelInfo {
+  display: grid;
+  grid-column: span 3;
+  grid-template-columns: 1fr;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.hotelPic {
+  height: 100%;
+  width: 100%;
+  border-radius: 30%;
+}
+
+.picLink {
+  height: 75%;
+  width: 80%;
+}
+
+.travelHeader {
+  font-size: 8em;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
 }
