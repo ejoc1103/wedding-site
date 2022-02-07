@@ -1,5 +1,3 @@
-import React from "react";
-
 import family1 from "../images/family1.jpeg";
 import family2 from "../images/family2.jpeg";
 import family3 from "../images/family3.jpeg";
