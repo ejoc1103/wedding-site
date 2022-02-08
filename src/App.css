@@ -81,6 +81,7 @@ h1 {
 @media only screen and (max-width: 920px) {
   .photo-block-one {
     margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .block-photo {
@@ -91,6 +92,20 @@ h1 {
   width: 20%;
   height: 20%;
   margin: 20px;
+}
+
+@media only screen and (max-width: 920px) {
+  .block-photo-two {
+    width: 40%;
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .block-photo-two {
+    width: 50%;
+    height: 50%;
+  }
 }
 
 .photoSubHeader {
