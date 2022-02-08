@@ -139,3 +139,8 @@ h1 {
   font-family: "Dancing Script", cursive;
   font-weight: 900;
 }
+
+.eventInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
