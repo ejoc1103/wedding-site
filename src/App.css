@@ -1,6 +1,46 @@
 body {
   font-family: "Oooh Baby", cursive;
   background-image: url("./images/background.jpg");
+  background-size: 100% 100%;
+}
+
+.nav-link {
+  color: #f8c304;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.nav-link:active {
+  color: white;
+  background-color: #f8c304;
+}
+
+.nav-link:visited {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #f8c304;
+  padding: 5px;
+}
+
+.regular-links {
+  color: #f8c304;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.regular-links:active {
+  color: white;
+}
+
+.regular-links:visited {
+  text-decoration: none;
+}
+
+.regular-links:hover {
+  color: white;
 }
 
 .main {
@@ -10,12 +50,39 @@ body {
   justify-items: center;
   text-align: center;
 }
+
+.main-hr {
+  grid-column: span 3;
+  width: 80%;
+  border: 2px solid #f8c304;
+  border-radius: 50%;
+}
+
+.travel-hr {
+  border: 2px solid #f8c304;
+  border-radius: 50%;
+  grid-column: span 3;
+  width: 100%;
+}
+
+@media only screen and (max-width: 460px) {
+  .main {
+    margin: 0 30px 0 30px;
+  }
+}
+
+.App-header {
+  font-size: 6em;
+  grid-column: span 3;
+  font-family: "Dancing Script", cursive;
+}
+
 h1 {
   align-items: center;
   justify-items: center;
   font-size: 50px;
   padding: 15px;
-  color: #d8ab09;
+  color: #f8c304;
   font-family: "Dancing Script", cursive;
 }
 
@@ -24,7 +91,7 @@ h1 {
 }
 
 .Date-info {
-  color: #d8ab09;
+  color: #f8c304;
   padding: 5px;
   font-size: 15px;
 }
@@ -34,13 +101,14 @@ h1 {
   height: 100%;
   width: 55%;
   border-radius: 10%;
+  margin-top: 20px;
 }
 
 .nav-list {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   list-style-type: none;
-  margin: 20px 0 0 0;
+  margin: 20px 0 20px 0;
   padding: 0;
   overflow: hidden;
   text-align: center;
@@ -48,6 +116,8 @@ h1 {
   align-self: center;
   justify-content: center;
   font-weight: bold;
+  grid-gap: 5%;
+  overflow: visible;
 }
 
 .link {
@@ -55,11 +125,11 @@ h1 {
   display: inline;
   padding: 10px;
   text-align: center;
-  color: #d8ab09;
+  color: #f8c304;
 }
 
 .weddingInfo {
-  color: #d8ab09;
+  color: #f8c304;
   padding: 5px;
   font-size: 15px;
 }
@@ -89,8 +159,8 @@ h1 {
   height: 100%;
 }
 .block-photo-two {
-  width: 20%;
-  height: 20%;
+  width: 30%;
+  height: 30%;
   margin: 20px;
 }
 
@@ -103,8 +173,8 @@ h1 {
 
 @media only screen and (max-width: 425px) {
   .block-photo-two {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
   }
 }
 
@@ -112,7 +182,7 @@ h1 {
   grid-column: span 3;
   text-align: center;
   font-size: 4em;
-  color: #d8ab09;
+  color: #f8c304;
 }
 
 .photo-block-two {
@@ -150,12 +220,73 @@ h1 {
 }
 
 .travelHeader {
-  font-size: 8em;
+  font-size: 7em;
+  font-family: "Dancing Script", cursive;
+}
+
+.reception-header {
+  font-size: 6em;
   font-family: "Dancing Script", cursive;
   font-weight: 900;
 }
-
 .eventInfo {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.registry-container {
+  display: grid;
+  grid-column: span 3;
+  grid-template-columns: 3fr 1fr 3fr;
+  width: 90%;
+  justify-items: center;
+}
+
+.registry-header {
+  grid-column: span 3;
+}
+
+.registry-child {
+  width: 80%;
+  align-self: center;
+}
+
+.honeymoon-photo {
+  height: 60%;
+  width: 60%;
+}
+
+.registry-hr {
+  width: 1;
+  size: 500;
+  border: 2px solid #f8c304;
+  border-radius: 50%;
+}
+
+.footer {
+  grid-column: span 3;
+  align-items: center;
+  margin: 40px 0 20px 0;
+  border-top: 5px solid #f8c304;
+  width: 100%;
+  color: #f8c304;
+  background-color: rgb(45, 146, 121);
+}
+
+.footer h3 {
+  font-size: 3em;
+}
+
+.footer h5 {
+  font-size: 1.5em;
+}
+
+.footer p {
+  font-size: 1.4em;
+}
+
+.footer-hr {
+  width: 40%;
+  border: 2px solid #f8c304;
+  border-radius: 50%;
 }

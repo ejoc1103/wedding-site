@@ -1,4 +1,5 @@
 import React from "react";
+
 let x = function () {
   let countDownDate = new Date("Jul 23, 2023 14:00:00").getTime();
 
@@ -16,9 +17,10 @@ let x = function () {
 const Header = () => {
   return (
     <>
+      <h1 className="App-header">Shelly and Ed</h1>
+
       <div></div>
       <div className="mainContainer">
-        <h1 className="App-header">Shelly and Ed</h1>
         <div className="Date-info">
           <h2>July 23rd, 2023 - Point Pleasant, NJ</h2>
           <h2>{x()} Days to Go</h2>

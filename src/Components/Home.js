@@ -2,8 +2,12 @@ import "../App.css";
 import Nav from "../Components/Nav";
 import mainPhoto from "../images/mainPhoto.jpg";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import venue from "../images/reception.jpg";
 import after from "../images/river-rock.jpg";
+
+//todo work on RSVP page
+//todo work on a border
 
 function Home() {
   return (
@@ -21,8 +25,9 @@ function Home() {
         <h2>Times still TBD</h2>
       </div>
       <div></div>
+      <hr className="main-hr" />
       <div></div>
-      <h1 className="weddingDay">Ceremony and Reception</h1>
+      <h1 className="reception-header">Ceremony and Reception</h1>
       <div></div>
       <div></div>
       <img className="mainPhoto" src={venue} alt="Ceremony Location" />
@@ -37,8 +42,9 @@ function Home() {
         </div>
       </div>
       <div></div>
+      <hr className="main-hr" />
       <div></div>
-      <h1 className="weddingDay">After Party </h1>
+      <h1 className="reception-header">After Party </h1>
       <div></div>
       <div></div>
       <img className="mainPhoto" src={after} alt="Ceremony Location" />
@@ -56,6 +62,7 @@ function Home() {
         </div>
       </div>
       <div></div>
+      <Footer />
     </div>
   );
 }

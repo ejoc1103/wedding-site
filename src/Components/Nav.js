@@ -1,30 +1,50 @@
 import React from "react";
 import "../App.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 const Nav = () => {
   return (
     <>
       <div></div>
       <div className="nav">
         <ul className="nav-list">
-          <Link to="/" id="homeTab">
+          <NavLink
+            exact={true}
+            className={isActive =>
+              "nav-link" + (!isActive ? " unselected" : "")
+            }
+            to="/"
+            id="homeTab"
+          >
             Home
-          </Link>
-          <Link className="link" to="/photos">
+          </NavLink>
+          <NavLink
+            activeClassName="is-active"
+            className="nav-link"
+            to="/photos"
+          >
             Photos
-          </Link>
-          <Link className="link" to="/travel">
+          </NavLink>
+          <NavLink
+            activeClassName="is-active"
+            className="nav-link"
+            to="/travel"
+          >
             Travel
-          </Link>
-          <Link className="link" to="/registry">
+          </NavLink>
+          <NavLink
+            activeClassName="is-active"
+            className="nav-link"
+            to="/registry"
+          >
             Registry
-          </Link>
-          <Link className="link" to="/rsvp">
+          </NavLink>
+          <NavLink activeClassName="is-active" className="nav-link" to="/rsvp">
             RSVP
-          </Link>
+          </NavLink>
         </ul>
       </div>
       <div></div>
+      <hr className="main-hr" />
     </>
   );
 };
