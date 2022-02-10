@@ -21,14 +21,14 @@ body {
 }
 
 .nav-link {
-  color: #f8c304;
+  color: white;
   font-size: 1.5em;
   text-decoration: none;
 }
 
 .nav-link:active {
   color: white;
-  background-color: #f8c304;
+  background-color: rgb(110, 91, 7);
 }
 
 .nav-link:visited {
@@ -37,12 +37,12 @@ body {
 
 .nav-link:hover {
   color: white;
-  background-color: #f8c304;
+  background-color: rgb(110, 91, 7);
   padding: 5px;
 }
 
 .regular-links {
-  color: #f8c304;
+  color: white;
   font-size: 1.5em;
   text-decoration: none;
 }
@@ -62,12 +62,12 @@ body {
 .main-hr {
   grid-column: span 3;
   width: 80%;
-  border: 2px solid #f8c304;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
 .travel-hr {
-  border: 2px solid #f8c304;
+  border: 2px solid white;
   border-radius: 50%;
   grid-column: span 3;
   width: 100%;
@@ -90,7 +90,7 @@ h1 {
   justify-items: center;
   font-size: 50px;
   padding: 15px;
-  color: #f8c304;
+  color: white;
   font-family: "Dancing Script", cursive;
 }
 
@@ -99,7 +99,7 @@ h1 {
 }
 
 .Date-info {
-  color: #f8c304;
+  color: white;
   padding: 5px;
   font-size: 15px;
 }
@@ -145,11 +145,11 @@ h1 {
   display: inline;
   padding: 10px;
   text-align: center;
-  color: #f8c304;
+  color: white;
 }
 
 .weddingInfo {
-  color: #f8c304;
+  color: white;
   padding: 5px;
   font-size: 15px;
 }
@@ -212,7 +212,7 @@ h1 {
   grid-column: span 3;
   text-align: center;
   font-size: 4em;
-  color: #f8c304;
+  color: white;
 }
 
 .photo-block-two {
@@ -264,6 +264,12 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 
+.eventInfo h2 {
+  font-size: 2em;
+}
+/* .bottom-info {
+  color: white;
+} */
 .registry-container {
   display: grid;
   grid-column: span 3;
@@ -282,7 +288,7 @@ h1 {
   #registry-sc-hr {
     grid-column: span 3;
     width: 80%;
-    border: 2px solid #f8c304;
+    border: 2px solid white;
     border-radius: 50%;
   }
 }
@@ -304,15 +310,15 @@ h1 {
 .registry-hr {
   width: 1;
   size: 500;
-  border: 2px solid #f8c304;
+  border: 2px solid white;
   border-radius: 50%;
 }
 
 .footer {
   text-align: center;
   margin: 10px 0 10px 0;
-  border-top: 5px solid #f8c304;
-  color: #f8c304;
+  border-top: 5px solid white;
+  color: white;
   background-color: rgb(45, 146, 121);
   float: left;
   width: 100%;
@@ -332,6 +338,6 @@ h1 {
 
 .footer-hr {
   width: 40%;
-  border: 2px solid #f8c304;
+  border: 2px solid white;
   border-radius: 50%;
 }

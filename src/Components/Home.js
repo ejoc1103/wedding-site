@@ -56,10 +56,12 @@ function Home() {
         <div></div>
         <div className="weddingInfo">
           <div className="eventInfo">
-            <h2>Times still TBD</h2>
-            <h2>1600 NJ-70, Brick Township, NJ 08724</h2>
+            <h2 className="bottom-info">Times still TBD</h2>
+            <h2 className="bottom-info">
+              1600 NJ-70, Brick Township, NJ 08724
+            </h2>
             <div></div>
-            <h2>Right Across the Street</h2>
+            <h2 className="bottom-info">Right Across the Street</h2>
           </div>
         </div>
         <div></div>
