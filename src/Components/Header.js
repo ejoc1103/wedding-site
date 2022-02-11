@@ -21,7 +21,7 @@ const Header = () => {
 
       <div></div>
       <div className="mainContainer">
-        <div className="Date-info">
+        <div className="date-info">
           <h2>July 23rd, 2023 - Point Pleasant, NJ</h2>
           <h2>{x()} Days to Go</h2>
         </div>

@@ -38,9 +38,15 @@ const Nav = () => {
           >
             Registry
           </NavLink>
-          <NavLink activeClassName="is-active" className="nav-link" to="/rsvp">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            activeClassName="is-active"
+            className="nav-link"
+            href="https://www.theknot.com/us/shelly-applegate-and-ed-o-connor-jul-2023/rsvp"
+          >
             RSVP
-          </NavLink>
+          </a>
         </ul>
       </div>
       <div></div>
