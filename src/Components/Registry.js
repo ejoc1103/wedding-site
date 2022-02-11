@@ -7,7 +7,7 @@ import Footer from "../Components/Footer";
 export default function Registry() {
   return (
     <>
-      <div className="main">
+      <div className="main" id="main-id">
         <Header />
 
         <Nav />

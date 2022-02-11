@@ -9,7 +9,7 @@ import Footer from "../Components/Footer";
 export default function Travel() {
   return (
     <>
-      <div className="main">
+      <div className="main" id="main-id">
         <Header />
         <Nav />
         <div></div>
