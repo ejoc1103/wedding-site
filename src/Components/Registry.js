@@ -14,6 +14,7 @@ export default function Registry() {
         <div></div>
         <div className="registry-container">
           <h1 className="registry-header">Registry Options</h1>
+          <hr className="main-hr" />
           <div className="registry-child">
             <div className="weddingInfo">
               <h1 className="weddingDay">Donate to Our Honeymoon Fund Here</h1>
