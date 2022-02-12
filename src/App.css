@@ -116,6 +116,11 @@ h1 {
     width: 90%;
   }
 }
+@media (max-width: 450px) {
+  .mainPhoto {
+    width: 100%;
+  }
+}
 
 .nav-list {
   display: grid;
@@ -161,7 +166,6 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-
   grid-column: span 3;
   margin-bottom: 200px;
 }
