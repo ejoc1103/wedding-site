@@ -11,7 +11,7 @@ import after from "../images/river-rock.jpg";
 function Home() {
   return (
     <>
-      <div className="main" id="main-id">
+      <div className="main" id="main-id ">
         <Header />
 
         <Nav />

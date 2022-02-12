@@ -118,7 +118,8 @@ h1 {
 }
 @media (max-width: 450px) {
   .mainPhoto {
-    width: 100%;
+    width: auto;
+    height: auto;
   }
 }
 
