@@ -12,9 +12,11 @@ body {
   text-align: center;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .main {
-    align-items: start;
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .main {
+      align-items: start;
+    }
   }
 }
 
