@@ -17,10 +17,10 @@ let x = function () {
 const Header = () => {
   return (
     <>
-      <h1 className="App-header">Shelly and Ed</h1>
+      <h1 className="app-header">Shelly and Ed</h1>
 
       <div></div>
-      <div className="mainContainer">
+      <div className="header-container">
         <div className="date-info">
           <h2>July 23rd, 2023 - Point Pleasant, NJ</h2>
           <h2>{x()} Days to Go</h2>

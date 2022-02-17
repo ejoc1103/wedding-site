@@ -8,32 +8,35 @@ const Nav = () => {
       <div className="nav">
         <ul className="nav-list">
           <NavLink
-            exact={true}
             className={isActive =>
               "nav-link" + (!isActive ? " unselected" : "")
             }
+            end
             to="/"
             id="homeTab"
           >
             Home
           </NavLink>
           <NavLink
-            activeClassName="is-active"
-            className="nav-link"
+            className={isActive =>
+              "nav-link" + (!isActive ? " unselected" : "")
+            }
             to="/photos"
           >
             Photos
           </NavLink>
           <NavLink
-            activeClassName="is-active"
-            className="nav-link"
+            className={isActive =>
+              "nav-link" + (!isActive ? " unselected" : "")
+            }
             to="/travel"
           >
             Travel
           </NavLink>
           <NavLink
-            activeClassName="is-active"
-            className="nav-link"
+            className={isActive =>
+              "nav-link" + (!isActive ? " unselected" : "")
+            }
             to="/registry"
           >
             Registry
@@ -41,7 +44,7 @@ const Nav = () => {
           <a
             target="_blank"
             rel="noreferrer"
-            activeClassName="is-active"
+            activeclassname="is-active"
             className="nav-link"
             href="https://www.theknot.com/us/shelly-applegate-and-ed-o-connor-jul-2023/rsvp"
           >
