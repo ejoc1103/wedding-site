@@ -1,12 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Components/Header";
-import Nav from "./Components/Nav";
-import Footer from "./Components/Footer";
-import Photos from "./Components/Photos";
-import Travel from "./Components/Travel";
-import Registry from "./Components/Registry";
-import Home from "./Components/Home";
+import Header from "./Components/Utilities/Header";
+import Nav from "./Components/Utilities/Nav";
+import Footer from "./Components/Utilities/Footer";
+import Photos from "./Components/MainPages/Photos";
+import Travel from "./Components/MainPages/Travel";
+import Registry from "./Components/MainPages/Registry";
+import Home from "./Components/MainPages/Home";
 
 function App() {
   return (

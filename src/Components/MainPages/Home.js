@@ -1,9 +1,7 @@
-import "../App.css";
-
-import mainPhoto from "../images/mainPhoto.jpg";
-
-import venue from "../images/reception.jpg";
-import after from "../images/river-rock.jpg";
+import "../../App.css";
+import mainPhoto from "../../images/mainPhoto.jpg";
+import venue from "../../images/reception.jpg";
+import after from "../../images/river-rock.jpg";
 
 //todo work on RSVP page
 

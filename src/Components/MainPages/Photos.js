@@ -1,12 +1,12 @@
 import React from "react";
 
-import photoArray from "../Utils/PhotoArray.js";
-import partyArray from "../Utils/PartyArray.js";
-import chillArray from "../Utils/ChillArray";
-import familyArray from "../Utils/FamilyArray";
-import morePartyArray from "../Utils/MorePartyArray";
-import officialArray from "../Utils/OfficialArray";
-import tortureArray from "../Utils/TortureArray";
+import photoArray from "../../Utils/PhotoArray.js";
+import partyArray from "../../Utils/PartyArray.js";
+import chillArray from "../../Utils/ChillArray";
+import familyArray from "../../Utils/FamilyArray";
+import morePartyArray from "../../Utils/MorePartyArray";
+import officialArray from "../../Utils/OfficialArray";
+import tortureArray from "../../Utils/TortureArray";
 
 export default function Photos() {
   return (

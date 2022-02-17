@@ -1,6 +1,6 @@
 import React from "react";
 
-import hawaii from "../images/hawaii.jpg";
+import hawaii from "../../images/hawaii.jpg";
 
 export default function Registry() {
   return (

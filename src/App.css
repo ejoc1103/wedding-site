@@ -165,7 +165,6 @@ h1 {
 
 .photo-container {
   display: grid;
-  row-gap: 20px;
   grid-column: span 3;
   justify-items: center;
   align-items: center;

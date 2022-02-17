@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../App.css";
 let x = function () {
   let countDownDate = new Date("Jul 23, 2023 14:00:00").getTime();
 

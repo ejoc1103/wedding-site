@@ -1,8 +1,7 @@
 import React from "react";
-
-import hotelPic from "../images/hotel.jpg";
-import trainPic from "../images/train.jpg";
-import airportPic from "../images/airport.jpg";
+import hotelPic from "../../images/hotel.jpg";
+import trainPic from "../../images/train.jpg";
+import airportPic from "../../images/airport.jpg";
 
 export default function Travel() {
   return (
