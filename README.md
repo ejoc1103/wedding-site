@@ -18,7 +18,7 @@ This is the site I built for our upcoming wedding in July 2023
 
 ### Tools used
 
-_My Wedding Site_ is built with react.  I used standar CSS for the styling.
+_My Wedding Site_ is built with react.  I used standard CSS for the styling.
 
 ### How to get started
 
