@@ -1,6 +1,6 @@
 # Wedding Site
 
-Hi! - welcome to _My Wedding Site_!
+Hi! - welcome to _Our Wedding Site_!
 
 This is the site I built for our upcoming wedding in July 2023
 
@@ -18,7 +18,7 @@ This is the site I built for our upcoming wedding in July 2023
 
 ### Tools used
 
-_My Wedding Site_ is built with react.  I used standard CSS for the styling.
+_Our Wedding Site_ is built with react.  I used standard CSS for the styling.
 
 ### How to get started
 
@@ -30,4 +30,4 @@ _My Wedding Site_ is built with react.  I used standard CSS for the styling.
 
 ### Site Can Be Found Here 
 
-[My Wedding Site](shelly-ed-2023.com)
+[Our Wedding Site](shelly-ed-2023.com)
