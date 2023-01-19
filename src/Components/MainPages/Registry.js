@@ -32,9 +32,7 @@ export default function Registry() {
         <hr className='registry-hr' id='registry-sc-hr' />
         <div className='registry-child'>
           <div className='wedding-info'>
-            <h1 className='wedding-day'>
-              Bed Bath and Beyond Registry Coming Soon!
-            </h1>
+            <h1 className='wedding-day'>Bed Bath and Beyond Registry</h1>
           </div>
           <a
             className='regular-links'
