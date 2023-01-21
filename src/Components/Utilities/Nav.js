@@ -4,6 +4,12 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 const Nav = () => {
   const location = useLocation();
+  /* <NavLink
+  className={'nav-link' + (location.pathname === '/rsvp' ? ' active' : '')}
+  to='/rsvp'
+>
+  RSVP
+</NavLink>; */
   return (
     <>
       <div></div>
@@ -61,10 +67,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-{/* <NavLink
-  className={'nav-link' + (location.pathname === '/rsvp' ? ' active' : '')}
-  to='/rsvp'
->
-  RSVP
-</NavLink>; */}
