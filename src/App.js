@@ -7,7 +7,7 @@ import Photos from './Components/MainPages/Photos';
 import Travel from './Components/MainPages/Travel';
 import Registry from './Components/MainPages/Registry';
 import Home from './Components/MainPages/Home';
-import RSVP from './Components/MainPages/RSVP';
+// import RSVP from './Components/MainPages/RSVP';
 
 function App() {
   return (
