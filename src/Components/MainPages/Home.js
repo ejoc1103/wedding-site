@@ -12,6 +12,7 @@ function Home() {
       <div className='wedding-info'>
         <h1 className='wedding-day'>Wedding Day</h1>
         <h1>July 23rd, 2023</h1>
+        <h1>Summer Cocktail Attire</h1>
         <h1>
           Ceremony <br /> Starts at 4:30 pm
         </h1>
@@ -33,7 +34,11 @@ function Home() {
             Cocktail Hour <br /> From 5 pm to 6 pm <br />{' '}
             <hr className='main-hr' /> Reception <br /> From 6 pm to 10 pm
           </h2>
-          <h2>3900 River Rd, Point Pleasant, NJ 08742</h2>
+          <h2>
+            Summer Cocktail Attire <br />
+            <hr className='main-hr' />
+            3900 River Rd, Point Pleasant, NJ 08742
+          </h2>
         </div>
       </div>
       <div></div>
