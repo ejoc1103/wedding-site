@@ -32,11 +32,11 @@ export default function Registry() {
         <hr className='registry-hr' id='registry-sc-hr' />
         <div className='registry-child'>
           <div className='wedding-info'>
-            <h1 className='wedding-day'>MyRegistry.com</h1>
+            <h1 className='wedding-day'>Target</h1>
           </div>
           <a
             className='regular-links'
-            href='https://www.myregistry.com/wedding-registry/edward-o-connor-and-shelly-applegate-brick-township-nj/3745690/giftlist'
+            href='https://www.target.com/gift-registry/gift-giver?registryId=55c3e040-e46a-11ed-bfce-2955859b8a1a&type=WEDDING'
             target='_blank'
             rel='noreferrer'
           >
